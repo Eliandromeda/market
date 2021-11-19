@@ -1,0 +1,35 @@
+.headerContainer {
+  align-items: center;
+  background: brown;
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+}
+
+.logoName {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 100px;
+}
+
+.buttonCart {
+  align-items: center;
+  background: #654321;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  height: 36px;
+  justify-content: space-around;
+  margin-right: 50px;
+  width: 160px;
+}
+
+.cart {
+  background: brown;
+  border-radius: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+}

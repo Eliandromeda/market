@@ -1,0 +1,41 @@
+.itemContainer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.addButton,
+.deleteButton {
+  width: 30px;
+  cursor: pointer;
+}
+
+.addButton:hover,
+.deleteButton:hover {
+  color: white;
+  background-color: brown;
+}
+
+.addButton {
+  margin-right: 10px;
+}
+
+.nameItem {
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.amount label {
+  font-weight: 600;
+  color: brown;
+}
+
+.amount input {
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-weight: 600;
+  text-align: center;
+  width: 40px;
+}

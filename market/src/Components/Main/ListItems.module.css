@@ -1,0 +1,16 @@
+.listContainer {
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.item {
+  background-color: white;
+}
+
+.line {
+  border: 0;
+  border-top: 1px solid #eee;
+  box-sizing: content-box;
+  margin: 10px;
+}
